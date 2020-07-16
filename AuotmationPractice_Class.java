@@ -40,7 +40,7 @@ public class AuotmationPractice_Class {
         
         WebElement proced=driver.findElement(By.xpath("//a[@title=\'Proceed to checkout\']"));
         proced.click();
-        System.out.println("Successfully login");
+        System.out.println("Click into Homepage");
         
         WebElement Total=driver.findElement(By.xpath("//div[@id='order-detail-content']/table/tfoot/tr[7]/td[1]"));
        
